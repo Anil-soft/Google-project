@@ -1,5 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/kubectl'
   args: ['build', '-t', 'gcr.io/new-project-1/new-project-1:$SHORT_SHA', '.']
-- name: 'gcr.io/cloud-builders/kubectl'
-  args: ['push', 'gcr.io/new-project-1/new-project-1:$SHORT_SHA']
+
